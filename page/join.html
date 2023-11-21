@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>join</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    
+    <link href="../css/mainstyle.css" rel="stylesheet">
+    <style>
+        textarea {text-align: center;}
+        .box {position: relative; left: 250px; top: 30px;}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h1 class="wyh"><a href="../mypage_20190722.html">What's your hobby?</a></h1>
+            <ul class="join">
+                <li><a href="join.html">join</a></li>
+                <li><a href="login.html">login</a></li>
+            </ul>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="1.html">healing</a></li>
+                <li><a href="2.html">active</a></li>
+                <li><a href="3.html">alone</a></li>
+                <li><a href="4.html">together</a></li>
+                <li><a href="login3.html">member</a></li>
+                <li><a href="6.html">recommend</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="box">
+    <h2>회원가입</h2>
+    <form action="login2.html" method="post">
+        <table>
+        <tr><td colspan="2"><hr></td></tr>
+        <tr><td>아이디</td>
+            <td><input type="text" size="20"> <input type="submit" value="중복확인" onclick="alert('사용가능한 아이디입니다.')"></td></tr>
+        <tr><td>비밀번호</td>
+            <td><input type="password" size="20"></td></tr>
+        <tr><td>이름</td>
+            <td><input type="text" size="20"></td></tr>
+        <tr><td>전화번호</td>
+            <td><input type="text" size="3" value="010"> - <input type="text" size="4"> - <input type="text" size="4"></td></tr>
+        <tr><td>직업</td>
+            <td><select>
+            <option selected>선택</option>
+            <option>회사원</option>
+            <option>학생</option>
+            <option>기타</option>
+          </select></td></tr>
+        <tr><td>성별</td>
+            <td><input id="man" type="radio" name="gender" value="m">
+        <label for="man">남자</label>
+        <input id="woman" type="radio" name="gender" value="m">
+        <label for="woman">여자</label></td></tr>
+        <tr><td>취미</td>
+            <td><input id="reading" type="checkbox" name="hobby" value="h">
+        <label for="reading">독서</label>
+        <input id="game" type="checkbox" name="hobby" value="h">
+        <label for="game">여행</label>
+        <input id="movie" type="checkbox" name="hobby" value="h">
+        <label for="movie">영화감상</label>
+        <input id="music" type="checkbox" name="hobby" value="h">
+        <label for="music">음악감상</label>
+        <input id="h" type="checkbox" name="hobby" value="h">
+        <label for="h">기타</label></td></tr>
+        <tr><td>자기소개</td>
+        <td><textarea name="introduce" cols="60" rows="7">
+환영합니다. 자유롭게 자기를 소개하는 글을 작성해주세요!
+          </textarea></td></tr>
+          <tr><td colspan="2"><hr></td></tr>
+        </table>
+          <input type="checkbox" name="ckeck" value="c">사이트의 이메일을 수신합니다.<br>
+          <input type="checkbox" name="ckeck" value="c">사이트의 sms를 수신합니다.<br><br>
+          <input type="submit" value="가입하기"> <input type="reset" value="취소하기">
+    </form>
+    </div>
+</body>
+</html>
