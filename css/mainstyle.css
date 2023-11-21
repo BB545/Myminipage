@@ -1,0 +1,12 @@
+.menu li {list-style: none; display: inline;}
+.menu {word-spacing: 50px;}
+.join li {list-style: none; display: inline;}
+.join {text-align: right; word-spacing: 30px; margin: 0px; padding-bottom: 10px;}
+.head {text-align: center; border: 0.3em solid mediumseagreen; padding-top: 10px; padding-left: 5px; padding-right: 5px;}
+a {text-decoration: none;}
+nav li a:hover{color:white;}
+body {margin: 0 auto;
+        width: 960px;}
+nav {background-color: yellowgreen; text-align: center; padding-top: 8px; padding-bottom: 8px;}
+.wyh {font-family: 'Permanent Marker', cursive;}
+h1 {text-align: center;}
